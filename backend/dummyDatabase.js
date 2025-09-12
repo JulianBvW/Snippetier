@@ -1,0 +1,117 @@
+export const posts = [
+    {
+        id: 1,
+        author: 'john_doe',
+        title: 'A Journey Through Time',
+        body: 'Time travel has always fascinated me. The concept of moving backward or forward through time seems like something out of science fiction, but with the advancements in technology, could it ever become a reality? Imagine being able to visit your ancestors or witness historical events firsthand. However, there are many complexities and paradoxes associated with time travel that make it both intriguing and dangerous. From the grandfather paradox to the butterfly effect, we have only scratched the surface of what time travel could truly mean for humanity.',
+        created_at: '2025-09-05T12:00:00Z',
+        likes: 15,
+        dislikes: 2,
+        comments: [
+            {
+                id: 1,
+                author: 'mary_smith',
+                body: 'This is such an interesting topic! The paradoxes are fascinating to think about.',
+                created_at: '2025-09-05T12:20:00Z',
+            },
+            {
+                id: 2,
+                author: 'tech_guy42',
+                body: 'I agree! But I think we also need to consider the ethical implications of time travel. Would it be okay to alter the past?',
+                created_at: '2025-09-05T12:25:00Z',
+            },
+        ],
+    },
+    {
+        id: 2,
+        author: 'jane_doe',
+        title: 'The Future of Artificial Intelligence',
+        body: 'Artificial Intelligence (AI) is rapidly evolving, and its impact on various industries is becoming increasingly evident. From healthcare to finance, AI is changing the way we work and live. In healthcare, AI systems are being used to diagnose diseases, develop personalized treatments, and even assist in surgeries. However, as AI continues to advance, questions arise about its role in society. Will it replace human jobs? What about the potential for bias in AI algorithms? These are important conversations we must have as AI technology progresses.',
+        created_at: '2025-09-06T14:30:00Z',
+        likes: 22,
+        dislikes: 4,
+        comments: [
+            {
+                id: 1,
+                author: 'sam_coder',
+                body: "Great insights! I think one of the biggest challenges is ensuring AI is used ethically and doesn't reinforce existing biases.",
+                created_at: '2025-09-06T14:40:00Z',
+            },
+            {
+                id: 2,
+                author: 'robotech',
+                body: "Absolutely! AI's potential is limitless, but we need strong regulations to prevent misuse.",
+                created_at: '2025-09-06T14:50:00Z',
+            },
+        ],
+    },
+    {
+        id: 3,
+        author: 'tech_wiz',
+        title: 'Understanding Quantum Computing',
+        body: 'Quantum computing is one of the most exciting developments in modern technology. Unlike classical computers, which use binary bits (0s and 1s), quantum computers use quantum bits, or qubits. These qubits can exist in multiple states simultaneously, thanks to a phenomenon called superposition. This allows quantum computers to solve certain types of problems much faster than traditional computers. But while quantum computing promises incredible power, it also presents significant challenges in terms of stability and scalability. The future of quantum computing is still uncertain, but it could revolutionize fields like cryptography, material science, and artificial intelligence.',
+        created_at: '2025-09-07T09:00:00Z',
+        likes: 30,
+        dislikes: 3,
+        comments: [
+            {
+                id: 1,
+                author: 'quantum_junkie',
+                body: "I've been following quantum computing for a while now! I can't wait to see what breakthroughs we'll have in the next decade.",
+                created_at: '2025-09-07T09:10:00Z',
+            },
+            {
+                id: 2,
+                author: 'algorithms_master',
+                body: 'Quantum computers could definitely change the way we approach cryptography. If they become practical, we might need to rethink the entire security landscape!',
+                created_at: '2025-09-07T09:20:00Z',
+            },
+        ],
+    },
+    {
+        id: 4,
+        author: 'emily_rose',
+        title: 'The Importance of Mental Health Awareness',
+        body: "In today's fast-paced world, mental health is becoming just as important as physical health. Yet, despite the growing awareness, many people still face stigma when it comes to seeking help for mental health issues. Anxiety, depression, and other mental health conditions can affect anyone, regardless of age, background, or social status. It's crucial that we continue to break down the stigma surrounding mental health and encourage open conversations. By doing so, we can create a more supportive and understanding society. Let's work together to ensure that mental health resources are available to everyone who needs them.",
+        created_at: '2025-09-08T11:15:00Z',
+        likes: 40,
+        dislikes: 1,
+        comments: [
+            {
+                id: 1,
+                author: 'mental_health_advocate',
+                body: 'This is such an important topic. We need more platforms where people feel safe to discuss their struggles.',
+                created_at: '2025-09-08T11:25:00Z',
+            },
+            {
+                id: 2,
+                author: 'positive_vibes_only',
+                body: 'I love this! Mental health should be a priority, and we all need to be more compassionate with each other.',
+                created_at: '2025-09-08T11:30:00Z',
+            },
+        ],
+    },
+    {
+        id: 5,
+        author: 'geek_guru',
+        title: 'How to Build a Simple Personal Website',
+        body: "In this post, I'll walk you through the process of creating a basic personal website using HTML, CSS, and a bit of JavaScript. The first step is to set up a basic HTML structure. You'll need to start with a <!DOCTYPE html> declaration, followed by the <html>, <head>, and <body> tags. Inside the <head> tag, you can include metadata such as the title of the page and links to external stylesheets. Once the basic structure is in place, you can move on to styling the website using CSS. This will allow you to create a visually appealing layout. Finally, you can add interactivity with JavaScript, such as simple animations or a contact form. By the end of this post, you'll have a functional personal website ready to showcase your portfolio or blog!",
+        created_at: '2025-09-09T13:00:00Z',
+        likes: 5,
+        dislikes: 0,
+        comments: [
+            {
+                id: 1,
+                author: 'web_dev_enthusiast',
+                body: "Great tutorial! I've been wanting to build my own website for a while, and this post really helped.",
+                created_at: '2025-09-09T13:10:00Z',
+            },
+            {
+                id: 2,
+                author: 'coder_chick',
+                body: 'Thanks for the tips! I struggled with the layout part, but this guide made it easy.',
+                created_at: '2025-09-09T13:20:00Z',
+            },
+        ],
+    },
+]

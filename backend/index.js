@@ -1,9 +1,16 @@
 import 'dotenv/config'
+import express from 'express'
+import { posts } from './dummyDatabase.js'
 
-let hello = 'world'
+const app = express()
+const PORT = process.env.PORT || 3000
 
-console.log(`Hello, ${hello}!`)
+console.log(posts)
 
-const PORT = process.env.PORT
+app.use(express.json())
 
-console.log(`Server is running on port ${PORT}`)
+app.listen(PORT, () => {
+    console.log(`Backend running on http://localhost:${PORT}`)
+})
+
+export default app
