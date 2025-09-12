@@ -1,0 +1,12 @@
+{
+  "name": "snippetier-backend",
+  "version": "1.0.0",
+  "description": "Backend for the Snippetier Blog Platform",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
