@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Snippetier - Post</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Snippetier</h1>
+      <span style="margin-top: 0.5em;"><span class="green">anonymous</span>@snippetier ~$ <span class="green">login</span>
+    </header>
+
+    <main>
+      <section id="single-post-container">
+        <!-- Post details will be injected here -->
+      </section>
+
+      <section id="comments-section" style="border-top: 2px solid #003300; margin-top: 2px; padding-top: 2em;">
+        <h2>// Comments</h2>
+        <div id="comment-list-container">
+          <!-- List of comments will be injected here -->
+        </div>
+
+        <h3>// Add a Comment</h3>
+        <form id="comment-form">
+            <textarea id="comment-text" rows="3" cols="50" required></textarea
+            ><br />
+            <button class="action-btn" type="submit">&gt; send comment</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="post.js"></script>
+  </body>
+</html>

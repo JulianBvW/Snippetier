@@ -13,6 +13,10 @@ header {
   margin-bottom: 3em;
 }
 
+.green {
+  color: #33ff33;
+}
+
 .post {
   border-bottom: 2px solid #003300;
   padding: 1.5em 0;
@@ -22,12 +26,12 @@ header {
   justify-content: space-between;
   font-size: 0.9em;
 }
-.title {
+.post-title {
   font-size: 1.5em;
   font-weight: bold;
   margin: 0.5em 0;
 }
-.excerpt {
+.post-body {
   margin: 0.5em 0;
   line-height: 1.4em;
 }
@@ -36,10 +40,6 @@ header {
   justify-content: space-between;
   margin-top: 1em;
   font-size: 0.9em;
-}
-.see-post {
-  text-decoration: underline;
-  cursor: pointer;
 }
 .stats {
   cursor: pointer;
@@ -52,6 +52,42 @@ header {
   font-weight: bold;
 }
 
-.green {
+.comment {
+  border-bottom: 2px solid #003300;
+  padding: 1em 0;
+}
+.comment-body {
+  margin-top: 0.5em;
+  line-height: 1.4em;
+  border-left: 2px dashed #00ff00;
+  padding-left: 1em;
+}
+
+textarea {
+  background-color: #003300;
+  border: 1px solid #33ff33;
+  color: #e0ffe0;
+  padding: 8px;
+  width: 100%;
+  resize: vertical;
+  outline: none;
+  caret-color: #33ff33;
+}
+
+.action-btn {
   color: #33ff33;
+  font-family: "Courier New", monospace;
+  font-size: 1em;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 0.5em;
+  transition: all 0.1s ease;
+}
+
+.action-btn:hover {
+  background-color: #33ff33;
+  color: #003300;
+  text-decoration: none;
 }
