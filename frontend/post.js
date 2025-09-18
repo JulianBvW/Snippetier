@@ -52,7 +52,7 @@ function renderPost(post) {
 function renderComments(comments) {
   if (comments.length === 0) {
     commentsContainer.innerHTML = `
-      <div class="comment-body">
+      <div class="comment-body" id="no-comments-yet">
         <p>No comments yet.
         <br>Be the first to comment!</p>
       </div>`;
@@ -106,6 +106,10 @@ commentForm.addEventListener("submit", async (e) => {
         </div>
     </div>
     `;
+
+    // Remove "No comments yet" message if present
+    const noCommentsMsg = document.getElementById("no-comments-yet");
+    if (noCommentsMsg) noCommentsMsg.remove();
 
     // Clear textarea
     commentText.value = "";
