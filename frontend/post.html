@@ -8,8 +8,14 @@
 
   <body>
     <header>
-      <h1>Snippetier</h1>
-      <span style="margin-top: 0.5em;"><span class="green">anonymous</span>@snippetier ~$ <span class="green">login</span>
+      <h1 class="header-action"><a href="index.html">Snippetier</a></h1>
+      <span style="margin-top: 0.5em">
+        <span class="green">anonymous</span>@snippetier ~$
+        <a href="login.html"><span class="green header-action">login</span></a>
+        <a href="new_post.html"
+          ><span class="green header-action">new-post</span></a
+        >
+      </span>
     </header>
 
     <main>
@@ -17,7 +23,10 @@
         <!-- Post details will be injected here -->
       </section>
 
-      <section id="comments-section" style="border-top: 2px solid #003300; margin-top: 2px; padding-top: 2em;">
+      <section
+        id="comments-section"
+        style="border-top: 2px solid #003300; margin-top: 2px; padding-top: 2em"
+      >
         <h2>// Comments</h2>
         <div id="comment-list-container">
           <!-- List of comments will be injected here -->
@@ -25,9 +34,9 @@
 
         <h3>// Add a Comment</h3>
         <form id="comment-form">
-            <textarea id="comment-text" rows="3" cols="50" required></textarea
-            ><br />
-            <button class="action-btn" type="submit">&gt; send comment</button>
+          <textarea id="comment-text" rows="3" cols="50" required></textarea
+          ><br />
+          <button class="action-btn" type="submit">&gt; send comment</button>
         </form>
       </section>
     </main>

@@ -8,24 +8,29 @@
 
   <body>
     <header>
-      <h1>Snippetier</h1>
-      <span style="margin-top: 0.5em;"><span class="green">anonymous</span>@snippetier ~$ <span class="green">login</span>
+      <h1 class="header-action"><a href="index.html">Snippetier</a></h1>
+      <span style="margin-top: 0.5em">
+        <span class="green">anonymous</span>@snippetier ~$
+        <a href="login.html"><span class="green header-action">login</span></a>
+      </span>
     </header>
 
     <main>
       <section id="new-post-section">
         <h1>New Post</h1>
         <form id="post-form">
-            <label>Title:<br>
-                <input type="text" id="post-title" required />
-            </label>
-            <br><br>
+          <label
+            >Title:<br />
+            <input type="text" id="post-title" required />
+          </label>
+          <br /><br />
 
-            <label>Content:<br>
-                <textarea id="post-text" rows="10" cols="50" required></textarea>
-            </label>
-            <br><br>
-            <button class="action-btn" type="submit">&gt; send post</button>
+          <label
+            >Content:<br />
+            <textarea id="post-text" rows="10" cols="50" required></textarea>
+          </label>
+          <br /><br />
+          <button class="action-btn" type="submit">&gt; send post</button>
         </form>
       </section>
     </main>
