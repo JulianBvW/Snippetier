@@ -51,8 +51,11 @@ function renderPost(post) {
 // Render function for comments
 function renderComments(comments) {
   if (comments.length === 0) {
-    commentsContainer.innerHTML =
-      "<p>// No comments yet. Be the first to comment!</p>";
+    commentsContainer.innerHTML = `
+      <div class="comment-body">
+        <p>No comments yet.
+        <br>Be the first to comment!</p>
+      </div>`;
     return;
   }
 
