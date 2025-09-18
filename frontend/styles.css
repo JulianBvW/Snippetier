@@ -63,7 +63,8 @@ header {
   padding-left: 1em;
 }
 
-textarea {
+textarea,
+input {
   background-color: #003300;
   border: 1px solid #33ff33;
   color: #e0ffe0;
@@ -72,6 +73,7 @@ textarea {
   resize: vertical;
   outline: none;
   caret-color: #33ff33;
+  font-family: "Courier New", monospace;
 }
 
 .action-btn {
@@ -89,5 +91,14 @@ textarea {
 .action-btn:hover {
   background-color: #33ff33;
   color: #003300;
+  text-decoration: none;
+}
+
+.header-action:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a {
   text-decoration: none;
 }
